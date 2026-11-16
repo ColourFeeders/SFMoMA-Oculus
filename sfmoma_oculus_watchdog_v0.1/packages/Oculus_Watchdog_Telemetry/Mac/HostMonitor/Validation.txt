@@ -1,0 +1,11 @@
+Oculus Mac Host Monitor v0.2.6
+
+The offline suite uses local signed UDP and loopback HTTPS to verify
+authentication, the reset pre-send check, the 60-second contact-loss gate,
+five-minute retries, persisted attempt spacing and planned-restart holds.
+UPS policy tests use simulated readings and clock advancement for the
+ten-minute battery and three-minute AC thresholds.
+The tests do not send traffic to exhibit hosts.
+
+Verify launchd installation, Restart Guard startup, the actual PiKVM
+ATX reset and Windows recovery on the installed equipment.

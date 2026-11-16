@@ -1,0 +1,17 @@
+Oculus Windows application observer v0.2.0 - validation record
+
+Development runtime: PowerShell 7.4.19 on Linux.
+Deployment runtime: Windows PowerShell 5.1 on the show server.
+
+PASS - Packaged self-test: heartbeat schema and sequence validation,
+       freshness, health and source transitions, PID correlation and reused
+       PID handling, log rotation, atomic status replacement and local UDP.
+PASS - Running observer with real loopback packets and simulated process
+       inventory: same-session TD match, TD_B absent, MadMapper present,
+       exclusion of an app from a different session and a non-TD PID.
+PASS - Same running observer reports stale TD heartbeat and recovers with a
+       different reported project path; MadMapper exit and restart change
+       process state and PID in snapshots and event logs.
+
+Run Test-Observer.cmd on the show server. Actual Windows process enumeration
+and the live TD/MadMapper commissioning test are the remaining target checks.

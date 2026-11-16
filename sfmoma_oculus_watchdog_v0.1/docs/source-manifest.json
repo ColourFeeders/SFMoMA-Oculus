@@ -1,0 +1,626 @@
+{
+  "release": "v0.2.6-eaton-ups-audit",
+  "note": "Upstream hashes retain their input provenance. Packaged hashes identify the cleaned GitHub source. The base observer remains a rollback target.",
+  "files": [
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/README.txt",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/README.txt",
+      "source_sha256": "7997b6c64a6289bdc84bc529a2f8ecfb02571424f9f8df9c48fe9d75a8a863dd",
+      "packaged_sha256": "1ef4d3d1ceee9d659cc7e686acfa43805fa945e635ab6729f3f4c68501696f6f",
+      "changes": [
+        "Eaton UPS integration",
+        "Eaton front-panel wording",
+        "v0.2.6 UPS audit"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Windows/OculusRestartGuard.cs",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Windows/OculusRestartGuard.cs",
+      "source_sha256": "8bd076310ecacafe7a17ce10c13c9631d31ca63bd8a93b524064b8614063804c",
+      "packaged_sha256": "34df776215848cd1c0ce655a92b610fd4d9dc239afb22a2c3195ef46e93fd6db",
+      "changes": [
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Windows/Install-OculusRestartGuard.ps1",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Windows/Install-OculusRestartGuard.ps1",
+      "source_sha256": "1710e2a787e39d94741c2b0b3e5055bc2d0fb26546372e16c04884cf583f531a",
+      "packaged_sha256": "83217348317ba84e96a3f9a0e798c76654117e7cccb35068c8564f37b24741ff",
+      "changes": [
+        "site IPv4 addresses replaced by documentation examples",
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Windows/Send-OculusHostHeartbeat.ps1",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Windows/Send-OculusHostHeartbeat.ps1",
+      "source_sha256": "e6ee75dddec4e987c77991878ed7200f2eba7b7b1b99b42acfa4335496887fa4",
+      "packaged_sha256": "e24b85c953c41e603b03a6fd534db6080eb86f8e71ee577709690c08241db5fc",
+      "changes": [
+        "UTF-8/LF text normalization",
+        "site IPv4 addresses replaced by documentation examples",
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/HostMonitor/Configure-PiKVM.command",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/HostMonitor/Configure-PiKVM.command",
+      "source_sha256": "93045247e31563990837c691dc7b821de4ce36683fd8e316ee962c4259cade5d",
+      "packaged_sha256": "93045247e31563990837c691dc7b821de4ce36683fd8e316ee962c4259cade5d",
+      "changes": []
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/HostMonitor/test_pikvm.py",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/HostMonitor/test_pikvm.py",
+      "source_sha256": "ab510e0bdb06e090da4fe596295b367e6c34d2a23c4e109bed4690f336022b4a",
+      "packaged_sha256": "8071f6c11e4daf536cf770e081de739e4fab9246d65ca06a44723cad89547cb3",
+      "changes": [
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/HostMonitor/Run-Monitor.command",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/HostMonitor/Run-Monitor.command",
+      "source_sha256": "2f7ab45be58a42711522e5b58a717fa65182ac80579c3344282fddab2485ed57",
+      "packaged_sha256": "2f7ab45be58a42711522e5b58a717fa65182ac80579c3344282fddab2485ed57",
+      "changes": []
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/HostMonitor/pikvm.py",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/HostMonitor/pikvm.py",
+      "source_sha256": "e2595cf8fdadb925fe971810254c39c76cc5227a3b3a7ee1f2e469fd05d8e249",
+      "packaged_sha256": "c52754e938aad0dcdfe0552a84a25dff3e4769278e2dc798909e36159ebf746b",
+      "changes": [
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/HostMonitor/test_monitor.py",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/HostMonitor/test_monitor.py",
+      "source_sha256": "b7c1b6dff79ff6b65956e053b7b3929d6695d6d05df8f49117f4ee7e7c39271c",
+      "packaged_sha256": "aa133bcfdd1c75ed4ddb7d18b4a93f39479a1ad3e55954c61aa6d8acacc17257",
+      "changes": [
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/HostMonitor/Install-Background.command",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/HostMonitor/Install-Background.command",
+      "source_sha256": "a12b0939272237bf362d68d4ecb8cdf3b34eabdbc9162fffb2fd66d3ab942ad6",
+      "packaged_sha256": "a12b0939272237bf362d68d4ecb8cdf3b34eabdbc9162fffb2fd66d3ab942ad6",
+      "changes": []
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/HostMonitor/monitor.config.json",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/HostMonitor/monitor.config.json",
+      "source_sha256": "6b2747daca20ae32fdb906d59d9d9e4783704b3071174ad4566d775aa37be923",
+      "packaged_sha256": "d9d4aae81f1f86dee22c060938fd313ab6a497dcdfd8465636ecd74d9b6f9f67",
+      "changes": [
+        "site IPv4 addresses replaced by documentation examples"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/HostMonitor/mac_runtime.sh",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/HostMonitor/mac_runtime.sh",
+      "source_sha256": "efb7c2027ff2d8ce057f6db7a1bc82159827173c1bb6518e2d6ee1cb952ab8f7",
+      "packaged_sha256": "632daebf60f20c6744d9d162b352f014e2484ebc76e73971072466249a31ae20",
+      "changes": [
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/HostMonitor/Remove-Background.command",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/HostMonitor/Remove-Background.command",
+      "source_sha256": "57b77c2b9b34c61bb170580c7feaec16c1fea19f55b4aa5c6ebd260214471e5e",
+      "packaged_sha256": "57b77c2b9b34c61bb170580c7feaec16c1fea19f55b4aa5c6ebd260214471e5e",
+      "changes": []
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/HostMonitor/README.txt",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/HostMonitor/README.txt",
+      "source_sha256": "2ac2727fc7209109adc5e8f2f781c0c92cf12731817d200dc714a7403f3c5cab",
+      "packaged_sha256": "711de902da375f3d9ee696ff533d63701527ae6911e904c3a34f07b9da5e7cb2",
+      "changes": [
+        "site IPv4 addresses replaced by documentation examples",
+        "Eaton UPS integration",
+        "v0.2.6 UPS audit"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/HostMonitor/Validation.txt",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/HostMonitor/Validation.txt",
+      "source_sha256": "0825d5f27c56833eda41465d898764f493eece34d753f90203e4d1d79f38366d",
+      "packaged_sha256": "35769594102b4fe1221823e5787c4b5634b7383de169938f4255a658d6aebfbf",
+      "changes": [
+        "Eaton UPS integration",
+        "v0.2.6 UPS audit"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/HostMonitor/Test-Monitor.command",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/HostMonitor/Test-Monitor.command",
+      "source_sha256": "8997c907909cdd4b6c83f1419f1b5918658649da1201120f09432f0c51f1521f",
+      "packaged_sha256": "4ddc988b187fd01dda884eba18995054d20a281e51ab986e29cb2ff50f0a7c09",
+      "changes": [
+        "Eaton UPS integration"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/HostMonitor/background_service.py",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/HostMonitor/background_service.py",
+      "source_sha256": "b2014cf2ccbca1cbf58fd442c1933753e911135b4e42563160f0928db1011e38",
+      "packaged_sha256": "072e8f4c624db2093d428c0409120ab3d162c7ad8c4cedeccc9766906670225f",
+      "changes": [
+        "GitHub source cleanup",
+        "Eaton UPS integration"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/HostMonitor/Show-Status.command",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/HostMonitor/Show-Status.command",
+      "source_sha256": "8a5a87808cc7fef0ac9682f529c5a9a37fa8b430f350c2d86546f512697cdd33",
+      "packaged_sha256": "8a5a87808cc7fef0ac9682f529c5a9a37fa8b430f350c2d86546f512697cdd33",
+      "changes": []
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/HostMonitor/mac_host_monitor.py",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/HostMonitor/mac_host_monitor.py",
+      "source_sha256": "398d0e5d0753e6a837aa9736f5d8ca54796da1cedf84ad3263eb2a877e62f572",
+      "packaged_sha256": "e04f6857649d950dffeb9bc24b75d29b612caa34eabe209238fbefd0fa55b82c",
+      "changes": [
+        "GitHub source cleanup",
+        "Eaton UPS integration",
+        "v0.2.6 UPS audit"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/power_controls.py",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/power_controls.py",
+      "source_sha256": "33cd5a75ba8b4cb1b82247057a955929844ee6809290765b3a91a98176b45b36",
+      "packaged_sha256": "3ba6ae5fba17953b2318592892c69bd54a380ce3a4dfe57038763d7f4d4ef7b6",
+      "changes": [
+        "GitHub source cleanup",
+        "Eaton UPS integration",
+        "v0.2.6 UPS audit"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/pikvm.py",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/pikvm.py",
+      "source_sha256": "2e68e883a7885c88ff1a993eb38063b70d9db73583e57fafdee9b946acdb9d34",
+      "packaged_sha256": "c3b62d275ced262c1c544c562bda811b077635697469ef1654f78257b6511ba4",
+      "changes": [
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/mac_runtime.sh",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/mac_runtime.sh",
+      "source_sha256": "efb7c2027ff2d8ce057f6db7a1bc82159827173c1bb6518e2d6ee1cb952ab8f7",
+      "packaged_sha256": "632daebf60f20c6744d9d162b352f014e2484ebc76e73971072466249a31ae20",
+      "changes": [
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/README.txt",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/README.txt",
+      "source_sha256": "85feb5a15a0b01e488f497257c839cc4e6ab94f9c3cc7fc8abcec3345910ac3b",
+      "packaged_sha256": "4e5c5052a25cfba78ae53717a3bdc83d08761383c61ab170b9aacb615b1b3f63",
+      "changes": [
+        "site IPv4 addresses replaced by documentation examples"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/index.html",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/index.html",
+      "source_sha256": "9859dfb98dbf1363da4ffa246eef6d7e7d9a9005d7df794a42d552834064b6a7",
+      "packaged_sha256": "aac9e81266a3533a46f72f908086f4a2a38c96778b0d2a35152197588f8c5cc1",
+      "changes": [
+        "Eaton UPS integration"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/Remove-Display.command",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/Remove-Display.command",
+      "source_sha256": "b88080374cd9df687cab7e69189dbf08305eef2e273ede7b730c1f8a7e9b3fa6",
+      "packaged_sha256": "b88080374cd9df687cab7e69189dbf08305eef2e273ede7b730c1f8a7e9b3fa6",
+      "changes": []
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/display.js",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/display.js",
+      "source_sha256": "4187f26fc2f9301138b3e8d451df5cb1966a083ce668f01c478d16091c2f3383",
+      "packaged_sha256": "78fb94e190a84286e4f6f65359d88a972582249316819955e3152dc49a124c13",
+      "changes": [
+        "GitHub source cleanup",
+        "Eaton UPS integration",
+        "Eaton front-panel wording",
+        "v0.2.6 UPS audit"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/display.py",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/display.py",
+      "source_sha256": "ad1666e49b52b5ad1e821863d5b37f53d4c8a442c1635131addb80c0e9a44a8a",
+      "packaged_sha256": "cfcb97570a024a50b35ffeff53bd81a2b92a893ba7a922110eb65177dae21425",
+      "changes": [
+        "GitHub source cleanup",
+        "Eaton UPS integration",
+        "v0.2.6 UPS audit"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/Install-Display.command",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/Install-Display.command",
+      "source_sha256": "0f31b05a65654db033e2f683abbd694c5208e7dfcfa22cfc310a8d5196294b6b",
+      "packaged_sha256": "0f31b05a65654db033e2f683abbd694c5208e7dfcfa22cfc310a8d5196294b6b",
+      "changes": []
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/display.css",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/display.css",
+      "source_sha256": "945d5968a9c27b8e13a1cd22f536fe91e59a07bde3344096e8f1e1456e778a16",
+      "packaged_sha256": "9c818455726e6cd2809d8a0f25f5d69dee6ebe2c7e3d06a5203725193ea0ab4b",
+      "changes": [
+        "Eaton UPS integration"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/Open-Power-Display.command",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/Open-Power-Display.command",
+      "source_sha256": "5a25c433425aee4724a78cdbb2c5d169764e8bf929623095004d13c563d266dd",
+      "packaged_sha256": "5a25c433425aee4724a78cdbb2c5d169764e8bf929623095004d13c563d266dd",
+      "changes": []
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/HostMonitor/Windows/Send-OculusHostHeartbeat.ps1",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/HostMonitor/Windows/Send-OculusHostHeartbeat.ps1",
+      "source_sha256": "e6ee75dddec4e987c77991878ed7200f2eba7b7b1b99b42acfa4335496887fa4",
+      "packaged_sha256": "e24b85c953c41e603b03a6fd534db6080eb86f8e71ee577709690c08241db5fc",
+      "changes": [
+        "UTF-8/LF text normalization",
+        "site IPv4 addresses replaced by documentation examples",
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/Windows/sshd-config-example.txt",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/Windows/sshd-config-example.txt",
+      "source_sha256": "3756654172db48a44ff667cf25ebcf1b0192085c80bf32924aebde6cd9985986",
+      "packaged_sha256": "3756654172db48a44ff667cf25ebcf1b0192085c80bf32924aebde6cd9985986",
+      "changes": []
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/Windows/Invoke-OculusPower.ps1",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/Windows/Invoke-OculusPower.ps1",
+      "source_sha256": "6cdc5a852affbbcc6214cd2ed5b8537e3c8d9fb29d417680c87c5acb0e6d2c80",
+      "packaged_sha256": "c14fd836b8e4807942fd417817c536b43c9ea9a65a091c4c6fadcfc76fba2b70",
+      "changes": [
+        "UTF-8/LF text normalization",
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Observer_Low_Overhead/README.txt",
+      "source_package": "Oculus_Observer_Low_Overhead",
+      "source_member": "Oculus_Observer_Low_Overhead/README.txt",
+      "source_sha256": "e4cceb9ad637a9305605170f3de46403404cf2b9fbc622a05a1925c8c1ce963d",
+      "packaged_sha256": "e4cceb9ad637a9305605170f3de46403404cf2b9fbc622a05a1925c8c1ce963d",
+      "changes": []
+    },
+    {
+      "path": "packages/Oculus_Observer_Low_Overhead/Observe-OculusHeartbeat.ps1",
+      "source_package": "Oculus_Observer_Low_Overhead",
+      "source_member": "Oculus_Observer_Low_Overhead/Observe-OculusHeartbeat.ps1",
+      "source_sha256": "b87fc8654ae5383d2c99c3f60358bcd5cf86c31256fb907d23dcbefb829bf41d",
+      "packaged_sha256": "21e89c2297b132d467b3927ce90bcf64b805db7271cc4280c0c219d5304e2e07",
+      "changes": [
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Observer_Low_Overhead/Start-Observer.cs",
+      "source_package": "Oculus_Observer_Low_Overhead",
+      "source_member": "Oculus_Observer_Low_Overhead/Start-Observer.cs",
+      "source_sha256": "11c147e45e7992e407c8688457aeefceb1936bd3dcfc14af8f01c627788f45e3",
+      "packaged_sha256": "71f0b3566d0603a43c1e0aed48bbdc75bb3c519093718304767cfb54b7c93845",
+      "changes": [
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Observer_Low_Overhead/Update-ObserverTask.ps1",
+      "source_package": "Oculus_Observer_Low_Overhead",
+      "source_member": "Oculus_Observer_Low_Overhead/Update-ObserverTask.ps1",
+      "source_sha256": "7f4de2d23543bb2c534e029a65e77fb2522811eabc8596aa8580afe465e4b4d4",
+      "packaged_sha256": "7047726c21511926b94825881e80f8cd7f454adb695dcfc8aa120737f42bd99d",
+      "changes": [
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Observer/Start-Observer.cmd",
+      "source_package": "Oculus_Watchdog_Observer_v0.2.0",
+      "source_member": "Oculus_Watchdog_Observer/Start-Observer.cmd",
+      "source_sha256": "1901fa24f039f2eb4527cc6785b40b3e683f03733cc3a0b85e7124007d908af4",
+      "packaged_sha256": "37f502bbc6e6c498e783659ad6cd254cabcda0a53c6a3e8d421b45ab7e4c0ffd",
+      "changes": [
+        "UTF-8/LF text normalization"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Observer/README.txt",
+      "source_package": "Oculus_Watchdog_Observer_v0.2.0",
+      "source_member": "Oculus_Watchdog_Observer/README.txt",
+      "source_sha256": "5c6b975ecab1c1e7defa6b83fccf6e26c69b3da4ff6dcb71a53a437add2a2728",
+      "packaged_sha256": "276a052ff9f4cb6bf97a5256eace1836c5057e4e47c5ab07fa1e977b9e5d0165",
+      "changes": [
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Observer/Validation.txt",
+      "source_package": "Oculus_Watchdog_Observer_v0.2.0",
+      "source_member": "Oculus_Watchdog_Observer/Validation.txt",
+      "source_sha256": "8360fa23f0f9a78cb956d3a76381ad5c6bdbcb0ad36a5bd30218a3963cd4a9b2",
+      "packaged_sha256": "8360fa23f0f9a78cb956d3a76381ad5c6bdbcb0ad36a5bd30218a3963cd4a9b2",
+      "changes": []
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Observer/observer.config.json",
+      "source_package": "Oculus_Watchdog_Observer_v0.2.0",
+      "source_member": "Oculus_Watchdog_Observer/observer.config.json",
+      "source_sha256": "de1e07452dac846c61f450964f36c5a2ffdca0f04c26a0454d9614b980df9d0e",
+      "packaged_sha256": "de1e07452dac846c61f450964f36c5a2ffdca0f04c26a0454d9614b980df9d0e",
+      "changes": []
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Observer/Observe-OculusHeartbeat.ps1",
+      "source_package": "Oculus_Watchdog_Observer_v0.2.0",
+      "source_member": "Oculus_Watchdog_Observer/Observe-OculusHeartbeat.ps1",
+      "source_sha256": "4222b5dde1f47858a4b48692d18ae6dcc4fceeae832c4ee6d76d059b782145a0",
+      "packaged_sha256": "b8f009a3c56507c498dd8dab6d6a11601feca73e0bb2d5f3c8bce1843ad0b867",
+      "changes": [
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Observer/Test-Observer.cmd",
+      "source_package": "Oculus_Watchdog_Observer_v0.2.0",
+      "source_member": "Oculus_Watchdog_Observer/Test-Observer.cmd",
+      "source_sha256": "ae02ed1e4983220b4bb3989e8640260c8f7c79569d84db4ebb5b10a7dd5feaa7",
+      "packaged_sha256": "c0ff760c93e1900557bcfa9619916baa33668fd3af40bfd49150e61d825b9b3b",
+      "changes": [
+        "UTF-8/LF text normalization"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Windows_SSH_Setup/README.txt",
+      "source_package": "Oculus_Windows_SSH_Setup",
+      "source_member": "Oculus_Windows_SSH_Setup/README.txt",
+      "source_sha256": "a193288c9991a240ced465e21b0593ef6cc0e58c4b1c5a45d1910d47985c08a1",
+      "packaged_sha256": "3c459411a3cda0c555f97f66a8bd2de8537b578594525aecffcbab3aa46df6eb",
+      "changes": [
+        "site IPv4 addresses replaced by documentation examples"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Windows_SSH_Setup/Install-OculusSSH.ps1",
+      "source_package": "Oculus_Windows_SSH_Setup",
+      "source_member": "Oculus_Windows_SSH_Setup/Install-OculusSSH.ps1",
+      "source_sha256": "ffb092190fd8a043468f3d5348c4b15fac187e42ed0fd7576b01782b64e30ac5",
+      "packaged_sha256": "63d4b9750feb948143e3076870a45a36b209d09813db449c6f490ef2967b0e80",
+      "changes": [
+        "site IPv4 addresses replaced by documentation examples",
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Windows_SSH_Setup/Invoke-OculusPower.ps1",
+      "source_package": "Oculus_Windows_SSH_Setup",
+      "source_member": "Oculus_Windows_SSH_Setup/Invoke-OculusPower.ps1",
+      "source_sha256": "6cdc5a852affbbcc6214cd2ed5b8537e3c8d9fb29d417680c87c5acb0e6d2c80",
+      "packaged_sha256": "c14fd836b8e4807942fd417817c536b43c9ea9a65a091c4c6fadcfc76fba2b70",
+      "changes": [
+        "UTF-8/LF text normalization",
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Host_Heartbeat_Startup/README.txt",
+      "source_package": "Oculus_Host_Heartbeat_Startup",
+      "source_member": "Oculus_Host_Heartbeat_Startup/README.txt",
+      "source_sha256": "aa65a487b6897d9d19b3c96f2985bac8929bc156bb992b7c0ac76c5019de8c16",
+      "packaged_sha256": "30cb9184c6c7d601459cd64e926871a82397306f5450f83181bf29723f1820d2",
+      "changes": [
+        "UTF-8/LF text normalization",
+        "site IPv4 addresses replaced by documentation examples"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Host_Heartbeat_Startup/Send-OculusHostHeartbeat.ps1",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Windows/Send-OculusHostHeartbeat.ps1",
+      "source_sha256": "e6ee75dddec4e987c77991878ed7200f2eba7b7b1b99b42acfa4335496887fa4",
+      "packaged_sha256": "e24b85c953c41e603b03a6fd534db6080eb86f8e71ee577709690c08241db5fc",
+      "changes": [
+        "UTF-8/LF text normalization",
+        "site IPv4 addresses replaced by documentation examples",
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Host_Heartbeat_Startup/Install-OculusHeartbeatStartup.ps1",
+      "source_package": "Oculus_Host_Heartbeat_Startup",
+      "source_member": "Oculus_Host_Heartbeat_Startup/Install-OculusHeartbeatStartup.ps1",
+      "source_sha256": "43b7d7cf88436f05fbbca05e87f26456e55245cb887045b7c350263da4131051",
+      "packaged_sha256": "720e736b3a3422fd6638daf413fa49b5438f3afabae252acde598336c1791425",
+      "changes": [
+        "UTF-8/LF text normalization",
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Observer/Install-OculusObserverAtLogon.ps1",
+      "source_package": "individual Library source",
+      "source_member": "Install-OculusObserverAtLogon.ps1",
+      "source_sha256": "bd9e5cf997a71b5876164c763a75345e013d2f53afb2f532e78760e617d58ba5",
+      "packaged_sha256": "762c7028bcefe3b9b552b9716354874cde327671756cc5add160455424db6286",
+      "changes": [
+        "UTF-8/LF text normalization",
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "touchdesigner/Oculus_TD_A_Execute_DAT.py",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/TouchDesigner/Oculus_TD_A_Execute_DAT.py",
+      "source_sha256": "1abf8eaab12265fd8051602e63b93950d20ab74cc5c1be96fada029443a0e2fd",
+      "packaged_sha256": "0d4cb68c01655ec71f23dc38eb8e2da35e8313869d293a251c2680ebbd5f1a42",
+      "changes": [
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "touchdesigner/Oculus_Watchdog_Execute_DAT.py",
+      "source_package": "individual Library source",
+      "source_member": "Oculus_Watchdog_Execute_DAT.py",
+      "source_sha256": "9b2a876eec98dab131bbb073a7ce5e9cbcb96debdca4d438b2f953ae41fe121e",
+      "packaged_sha256": "a9ae790784664837cce0cae34f8d4ff00ccb6e19d997a57a7b1ae8f65a55b611",
+      "changes": [
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "touchdesigner/Export-Oculus-TD-Network.py",
+      "source_package": "individual Library source",
+      "source_member": "Export-Oculus-TD-Network.py",
+      "source_sha256": "bca517b08478cc7e6ee625b9ce3c5bf2d987da8a7f29346ffd699ce39a5542a2",
+      "packaged_sha256": "f9752095fb1e5209ed8a20d9a2f33b6fb35ae0f6d0cb3a22281fe64d2ac8a8bf",
+      "changes": [
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "tools/diagnostics/Collect-OculusServerInfo.ps1",
+      "source_package": "individual Library source",
+      "source_member": "Collect-OculusServerInfo.ps1",
+      "source_sha256": "24b74f3aa2516e343bc32cb18ffb078c39d36a301ed3d380249e503dcb42c80e",
+      "packaged_sha256": "ae5e8b45ba59286d841db58e229086fe7a18c02a94b4e0a4db8e6633f5f6a471",
+      "changes": [
+        "Limit scheduled-task diagnostics to watchdog and show application matches",
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "tools/diagnostics/Collect-OculusMacInfo.sh",
+      "source_package": "individual Library source",
+      "source_member": "Collect-OculusMacInfo.sh",
+      "source_sha256": "77e4372c221b7804fe6248e36e82a3c3072d08e404bbc7f3c60a89bf388d6e6b",
+      "packaged_sha256": "d5ee63ee7ad9c1154c8281b3eaba357a11f74e19926dd34aed0ed6e33c1f948c",
+      "changes": [
+        "UTF-8/LF text normalization",
+        "site IPv4 addresses replaced by documentation examples",
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/TouchDesigner/Oculus_TD_A_Execute_DAT.py",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/TouchDesigner/Oculus_TD_A_Execute_DAT.py",
+      "source_sha256": "1abf8eaab12265fd8051602e63b93950d20ab74cc5c1be96fada029443a0e2fd",
+      "packaged_sha256": "0d4cb68c01655ec71f23dc38eb8e2da35e8313869d293a251c2680ebbd5f1a42",
+      "changes": [
+        "GitHub source cleanup"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/HostMonitor/ups_automation.py",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/HostMonitor/ups_automation.py",
+      "source_sha256": "97dac9cf14034070d1fcce4245b2f3d9a66b0d3549b1f356b6f46d7888fd8b34",
+      "packaged_sha256": "808a6c63548bc1eb607c496b9c4fa56052121bdc689fe91916d652fb14c38b85",
+      "changes": [
+        "Added in v0.2.5",
+        "v0.2.6 UPS audit"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/HostMonitor/windows_power.py",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/HostMonitor/windows_power.py",
+      "source_sha256": "bcb8c14867f1f03429948b8727340cb3d74dc421fd5055d321987d03f64c8fe1",
+      "packaged_sha256": "bcb8c14867f1f03429948b8727340cb3d74dc421fd5055d321987d03f64c8fe1",
+      "changes": [
+        "Added in v0.2.5"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/HostMonitor/test_ups.py",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/HostMonitor/test_ups.py",
+      "source_sha256": "fa2ac50630fd1f4fca1a39a070bacee2969fc0dae247cb6f532d74d6f665f62a",
+      "packaged_sha256": "84a8d36b1bce218dad488bf4b0cc29dd3b447d1a453c1f614b7b2741b3f2054b",
+      "changes": [
+        "Added in v0.2.5",
+        "v0.2.6 UPS audit"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/HostMonitor/ups_snmp.py",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/HostMonitor/ups_snmp.py",
+      "source_sha256": "a8bbd3e4abaaa1c1155b5a69e6c5df5e06e024083698fd1cfbf4675c396c91f9",
+      "packaged_sha256": "34f2e3afed39b6cd4e9de603ee0f467c0eb123ffd29deaa0998ce2665b058086",
+      "changes": [
+        "Added in v0.2.5",
+        "v0.2.6 UPS audit"
+      ]
+    },
+    {
+      "path": "packages/Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/windows_power.py",
+      "source_package": "Oculus_Watchdog_Telemetry",
+      "source_member": "Oculus_Watchdog_Telemetry/Mac/WatchdogDisplay/windows_power.py",
+      "source_sha256": "bcb8c14867f1f03429948b8727340cb3d74dc421fd5055d321987d03f64c8fe1",
+      "packaged_sha256": "bcb8c14867f1f03429948b8727340cb3d74dc421fd5055d321987d03f64c8fe1",
+      "changes": [
+        "Added in v0.2.5"
+      ]
+    }
+  ]
+}

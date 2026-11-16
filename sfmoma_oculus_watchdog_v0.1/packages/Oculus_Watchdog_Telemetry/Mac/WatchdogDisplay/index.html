@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Oculus Watchdog</title>
+  <link rel="stylesheet" href="/display.css">
+  <script defer src="/display.js"></script>
+</head>
+<body>
+  <main class="layout">
+    <header class="top">
+      <div>
+        <p class="site">SF MOMA <span aria-hidden="true">/</span> OCULUS</p>
+        <p class="name">Watchdog status</p>
+      </div>
+      <button type="button" id="fullscreen" hidden>Full screen</button>
+    </header>
+
+    <section class="primary" id="primary" data-tone="neutral" aria-labelledby="watchdog">
+      <div class="primary-content">
+        <div class="indicator" aria-hidden="true"><span></span></div>
+        <div>
+          <h1 id="watchdog" role="status">Connecting to display</h1>
+          <p class="detail" id="watchdog-detail">Waiting for the first update.</p>
+        </div>
+      </div>
+      <div class="freshness">
+        <span>Last update</span>
+        <time id="updated">—</time>
+      </div>
+    </section>
+
+    <div class="cards">
+      <section class="card" id="windows-card" data-tone="neutral" aria-labelledby="windows-label">
+        <h2 id="windows-label">Windows heartbeat</h2>
+        <p class="value" id="windows">—</p>
+        <p class="detail" id="windows-detail">Waiting for status</p>
+      </section>
+      <section class="card" id="pikvm-card" data-tone="neutral" aria-labelledby="pikvm-label">
+        <h2 id="pikvm-label">PiKVM</h2>
+        <p class="value" id="pikvm">—</p>
+        <p class="detail" id="pikvm-detail">Waiting for status</p>
+      </section>
+      <section class="card" id="ups-card" data-tone="neutral" aria-labelledby="ups-label">
+        <h2 id="ups-label">UPS power</h2>
+        <p class="value" id="ups">—</p>
+        <p class="detail" id="ups-detail">Waiting for status</p>
+      </section>
+      <section class="card" id="recovery-card" data-tone="neutral" aria-labelledby="recovery-label">
+        <div class="recovery-heading">
+          <h2 id="recovery-label">Auto-recover</h2>
+          <button type="button" id="recovery-toggle" role="switch"
+                  aria-labelledby="recovery-label" aria-describedby="recovery-detail"
+                  aria-checked="false" disabled>
+            <span class="switch-track" aria-hidden="true"></span>
+            <span id="recovery-toggle-state" aria-hidden="true">—</span>
+          </button>
+        </div>
+        <p class="value" id="recovery">—</p>
+        <p class="detail" id="recovery-detail">Waiting for status</p>
+        <p class="detail" id="recovery-result" role="status" hidden></p>
+      </section>
+    </div>
+
+    <section class="card show-panel" aria-labelledby="show-title">
+      <h2 id="show-title">Essential functions</h2>
+      <div class="show-functions">
+        <div id="observer-card" data-tone="neutral">
+          <h3>Windows observer</h3><p class="value" id="observer">—</p><p class="detail" id="observer-detail"></p>
+        </div>
+        <div id="td-a-card" data-tone="neutral">
+          <h3>TD_A playback</h3><p class="value" id="td-a">—</p><p class="detail" id="td-a-detail"></p>
+        </div>
+        <div id="td-b-card" data-tone="neutral">
+          <h3>TD_B interaction</h3><p class="value" id="td-b">—</p><p class="detail" id="td-b-detail"></p>
+        </div>
+        <div id="mapper-card" data-tone="neutral">
+          <h3>MadMapper</h3><p class="value" id="mapper">—</p><p class="detail" id="mapper-detail"></p>
+        </div>
+      </div>
+      <p class="detail" id="observer-metrics" hidden></p>
+    </section>
+
+    <section class="card power-panel" aria-labelledby="power-title">
+      <h2 id="power-title">Show server power</h2>
+      <div class="power-actions">
+        <button type="button" data-action="power-on" class="power-on-action" disabled>Power on via PiKVM</button>
+        <button type="button" data-action="soft-shutdown" disabled>Soft shutdown</button>
+        <button type="button" data-action="soft-restart" disabled>Soft restart</button>
+        <button type="button" data-action="hard-shutdown" class="hard-action" disabled>Hard shutdown</button>
+        <button type="button" data-action="hard-restart" class="hard-action" disabled>Hard restart</button>
+      </div>
+      <p class="detail" id="power-readiness">Checking power controls…</p>
+      <p id="power-result" role="status" hidden></p>
+    </section>
+
+    <section class="card show-panel" aria-labelledby="events-title">
+      <h2 id="events-title">Recent events</h2>
+      <p class="detail" id="events-empty">Waiting for events</p>
+      <ol class="show-events" id="show-events" hidden></ol>
+    </section>
+
+    <dialog id="power-confirm" aria-labelledby="power-question" aria-describedby="power-explanation">
+      <form method="dialog">
+        <h2 id="power-question"></h2>
+        <p class="detail" id="power-explanation"></p>
+        <div class="confirm-actions">
+          <button value="cancel" autofocus>Cancel</button>
+          <button value="confirm" class="confirm-submit">Confirm</button>
+        </div>
+      </form>
+    </dialog>
+
+    <footer>
+      <span id="version"></span>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,8 @@
+Match User oculuspower
+    AuthenticationMethods publickey
+    PasswordAuthentication no
+    AuthorizedKeysFile C:/ProgramData/ssh/oculuspower_authorized_keys
+    PermitTTY no
+    AllowTcpForwarding no
+    AllowAgentForwarding no
+    ForceCommand C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -File C:/ProgramData/OculusPower/Invoke-OculusPower.ps1

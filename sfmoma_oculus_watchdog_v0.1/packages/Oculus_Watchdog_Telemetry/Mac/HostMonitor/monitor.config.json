@@ -1,0 +1,15 @@
+{
+  "mode": "observe",
+  "mac_bind_ip": "192.0.2.135",
+  "windows_ip": "192.0.2.136",
+  "pikvm_ip": "192.0.2.141",
+  "windows_host": "CP007-01",
+  "heartbeat_port": 19741,
+  "heartbeat_timeout_seconds": 15,
+  "stability_seconds": 10,
+  "max_clock_skew_seconds": 60,
+  "source_retention_seconds": 120,
+  "ping_interval_seconds": 5,
+  "ping_timeout_seconds": 3,
+  "summary_interval_seconds": 30
+}

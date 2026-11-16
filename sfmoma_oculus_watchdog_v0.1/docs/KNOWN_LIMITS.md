@@ -1,0 +1,11 @@
+# Scope and known limits
+
+- The Windows observer reports TD heartbeat health and process presence. It does not restart applications. MadMapper process presence does not prove output, mapping, Spout reception, projector operation or synchronization.
+- The latest TD_A DAT checks **two 15360 x 2160 Spout outputs**: `UPPER BRIDGE` at `/SfMOMA/mapping/over_bridge/syphonspoutout1`, and `LowerBridge` at `/SfMOMA/mapping/under_bridge/syphonspoutout1`. This is newer than the earlier conceptual single-Spout architecture. Preserve the current project paths and names unless the deployed project is intentionally revised.
+- `Oculus_Watchdog_Execute_DAT.py` is a template. Its default role is TD_A and health is deliberately false with `HEALTH_CHECKS_NOT_CONFIGURED`. Set `INSTANCE = "TD_B"` and implement role-specific health before using it for TD_B. Keep exactly one sender per project.
+- Execute DAT callbacks depend on the project engine/callback execution. An intentional pause can stop heartbeat delivery. Check this during commissioning; do not interpret every absent TD packet as an OS fault.
+- Unannounced host recovery requires a healthy baseline, armed recovery, maintenance off, 60 seconds of silence from both signed Windows sources and ready powered-on ATX. It retries every five minutes during a continuing outage. A Windows-only network partition can trigger a reset.
+- A signed restart notice or a separately observed ATX power-on holds reset until Windows is healthy. At five minutes the dashboard marks the protected boot delayed.
+- Full Windows application startup/recovery, TD_B health integration, emergency-still behavior, display enumeration stability, end-to-end image acceptance and platform installation have not been established by this source packaging task.
+- Generated custom EDID binaries are excluded because the latest user report said they made affected displays nonfunctional. Preserve/recover the verified original configuration through the display specialist; this release does not fix EDID enumeration.
+- This source tree targets the existing named site host. It is not a generic one-click installer and is not a substitute for backup copies of the show projects, media and calibration.
